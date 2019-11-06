@@ -33,8 +33,8 @@ def get2Ddata(filename):
     for i in range(len(t)):
         data.append([])
         for j in range(len(x)):
-            data[i].append(so[j*nz+l*i:(j+1)*nz+l*i,4:7])
-    data=np.array(data)
+            data[i].append(so[j*nz+l*i:(j+1)*nz+l*i,5:7])
+    return data=np.array(data)
 
 def getevenlop(time, filename):
     
