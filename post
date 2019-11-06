@@ -1,0 +1,7 @@
+f = open("E:\\research\\mechine learning\\2D_12_.5_.02.txt","r")
+A=[]
+fr=f.read()
+fr=fr.split("\n")
+for i in fr:
+    i=i.split(",")
+fr[0][0]
